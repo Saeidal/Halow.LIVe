@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.kurd" name="[COLOR red]Karwan.[COLOR green]TV[/COLOR]" version="1.1.1" provider-name="Halow">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>FB Halow Tv add ons</summary>
-    <description>Kurdistan Livestreams
-
- http://karwan.tv</description>
-  </extension>
+<?xml version="1.0.1" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Halowrepo" name="  [COLOR lime][B]HALOW [/COLOR][COLOR white]Repository[/B][/COLOR]" version="1.5.0" provider-name="HalowRepo">
+	<extension point="xbmc.addon.repository" name="  [COLOR lime][B]Halow[/COLOR][COLOR white]Repository[/B][/COLOR]">
+        <info compressed="false">https://raw.githubusercontent.com/HalowTV/Halow.LIVe/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/HalowTV/Halow.LIVe/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/HalowTV/Halow.LIVe/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install my Addons</summary>
+		<description>Download and install addons from Halow Repo</description>
+		<platform>all</platform>
+	</extension>
 </addon>
