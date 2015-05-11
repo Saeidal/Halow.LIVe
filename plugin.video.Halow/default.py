@@ -144,6 +144,7 @@ def MOVIES():
         AddDir("[COLOR green][B]Canada LIVE TV[/B][/COLOR]", Raw+"H48aVN7Z" ,4 ,"http://icons.iconarchive.com/icons/custom-icon-design/flag-2/256/Canada-Flag-icon.png")
         AddDir("[COLOR green][B]Chinia LIVE TV[/B][/COLOR]", Raw+"yw4yLJMm" ,4 ,"http://icons.iconarchive.com/icons/custom-icon-design/flag-2/256/China-Flag-icon.png")
         AddDir("[COLOR green][B]Webcams  LIVE TV[/B][/COLOR]", Raw+"3QsyXVHa" ,4 ,"http://www.mhub.tv/wp-content/uploads/2013/12/webcam.png")
+        AddDir("[COLOR green][B]Africa LIVE TV[/B][/COLOR]", Raw+"2aYeNhfC" ,4 ,"http://www.freeiptvlinks.com/wp-content/uploads/2015/04/Flag_of_South_Africa.svg_-304x200.png")
 
         xbmc.executebuiltin("Container.SetViewMode(500)") 
         
